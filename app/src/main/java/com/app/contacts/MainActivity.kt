@@ -41,17 +41,13 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(findViewById(R.id.toolBar))
         recyclerView = findViewById(R.id.recyclerView)
         recyclerView.setOnClickListener {
-
         }
         recyclerView.layoutManager = LinearLayoutManager(this)
-
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_CALL_LOG) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, arrayOf(Manifest.permission.READ_CALL_LOG, Manifest.permission.CALL_PHONE), 1)
+            loadCallLogs()
         } else {
-            var callLogs = loadCallLogs()
-            callLogAdapter = CallLogAdapter(callLogs, this)
-            recyclerView.adapter = callLogAdapter
-
+            loadCallLogs()
         }
     }
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -93,7 +89,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun loadCallLogs():MutableList<CallLogItem> {
+    private fun loadCallLogs(){
         val resolver = contentResolver
         val cursor = resolver.query(
             CallLog.Calls.CONTENT_URI, null, null, null, CallLog.Calls.DATE + " DESC"
@@ -123,7 +119,8 @@ class MainActivity : AppCompatActivity() {
                 callLogs.add(CallLogItem(name, phoneNumber, callType, dateFormatted))
             }
         }
-        return callLogs
+        callLogAdapter = CallLogAdapter(callLogs, this)
+        recyclerView.adapter = callLogAdapter
     }
 
 }

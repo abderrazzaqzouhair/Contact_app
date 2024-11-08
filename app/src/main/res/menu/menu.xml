@@ -3,13 +3,13 @@
     <item
         android:id="@+id/action_search"
         android:icon="@drawable/baseline_search_24"
-        android:title="Search"
+        android:title="@string/Search"
         app:actionViewClass="androidx.appcompat.widget.SearchView"
         app:showAsAction="ifRoom|collapseActionView" />
 
     <item
         android:id="@+id/action_settings"
         android:icon="@android:drawable/ic_menu_preferences"
-        android:title="Settings"
+        android:title="@string/settings"
         app:showAsAction="never" />
 </menu>

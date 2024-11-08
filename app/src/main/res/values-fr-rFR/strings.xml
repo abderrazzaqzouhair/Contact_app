@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Contacts</string>
+    <string name="no_contact">Vous n\'avez pas encore de contacts</string>
+    <string name="settings">Paramètres</string>
+    <string name="Search">Rechercher</string>
+    <string name="message">Message</string>
+    <string name="call">Appel</string>
+</resources>

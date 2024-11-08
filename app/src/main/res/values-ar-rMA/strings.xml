@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">جهات الاتصال</string>
+    <string name="no_contact">ليس لديك أي جهات اتصال حتى الآن</string>
+    <string name="settings">إعدادات</string>
+    <string name="Search">يبحث</string>
+    <string name="message">"رسالة "</string>
+    <string name="call">اتصال</string>
+</resources>

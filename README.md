@@ -20,4 +20,4 @@ The **Contact App** is an Android application built using **Kotlin** and **XML**
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Contact_app.git
+   git clone https://github.com/abderrazzaqzouhair/Contact_app

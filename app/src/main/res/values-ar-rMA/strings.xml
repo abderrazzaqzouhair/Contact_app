@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">جهات الاتصال</string>
-    <string name="no_contact">ليس لديك أي جهات اتصال حتى الآن</string>
-    <string name="settings">إعدادات</string>
-    <string name="Search">يبحث</string>
-    <string name="message">"رسالة "</string>
-    <string name="call">اتصال</string>
+    <string name="no_contact">ليس لديك جهات اتصال بعد</string>
+    <string name="settings">الإعدادات</string>
+    <string name="Search">بحث</string>
+    <string name="message">رسالة</string>
+    <string name="call">مكالمة</string>
+    <string name="title_activity_settings">نشاط الإعدادات</string>
+
+    <string name="messages_header">إعدادات</string>
+    <string name="sync_header">المزامنة</string>
+
+    <string name="signature_title">توقيعك</string>
+    <string name="reply_title">لغة التطبيق</string>
+
+    <string name="sync_title">مزامنة البريد الإلكتروني بشكل دوري</string>
+    <string name="attachment_title">تنزيل المرفقات الواردة</string>
+    <string name="attachment_summary_on">تنزيل المرفقات تلقائيًا للبريد الوارد</string>
+    <string name="attachment_summary_off">تنزيل المرفقات عند الطلب فقط</string>
+    <string name="arabic">عربي</string>
+    <string name="english">إنجليزي</string>
+    <string name="french">فرنسي</string>
 </resources>

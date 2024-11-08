@@ -6,4 +6,22 @@
     <string name="Search">Rechercher</string>
     <string name="message">Message</string>
     <string name="call">Appel</string>
+    <string name="title_activity_settings">Activité Paramètres</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Paramètres</string>
+    <string name="sync_header">Synchronisation</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Votre signature</string>
+    <string name="reply_title">langue de l\'application</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Synchroniser les emails périodiquement</string>
+    <string name="attachment_title">Télécharger les pièces jointes reçues</string>
+    <string name="attachment_summary_on">Télécharger automatiquement les pièces jointes pour les emails entrants</string>
+    <string name="attachment_summary_off">Télécharger les pièces jointes uniquement sur demande</string>
+    <string name="arabic">arabe</string>
+    <string name="english">anglaise</string>
+    <string name="french">française</string>
 </resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Contacts</string>
+    <string name="no_contact">You have no contacts yet</string>
+</resources>

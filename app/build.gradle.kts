@@ -36,7 +36,8 @@ android {
 }
 
 dependencies {
-    implementation (libs.zeugmasolutions.locale.helper.android)
+
+    implementation(libs.androidx.core.splashscreen)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)

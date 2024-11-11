@@ -10,7 +10,6 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_gravity="start">
-
         <TextView
             android:id="@+id/contactImage"
             android:layout_width="match_parent"

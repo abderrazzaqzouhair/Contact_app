@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:fitsSystemWindows="true"
         android:background="@color/white"
+        app:title="@string/app_name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,6 +23,7 @@
     </androidx.appcompat.widget.Toolbar>
 
     <LinearLayout
+        android:id="@+id/noContact"
         android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -35,12 +37,14 @@
         app:layout_constraintVertical_bias="0.5">
 
         <ImageView
+            android:id="@+id/noContactImage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:src="@drawable/box" />
 
         <TextView
+            android:id="@+id/noContactText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

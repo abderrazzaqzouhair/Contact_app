@@ -13,7 +13,7 @@
     <string name="sync_header">Synchronisation</string>
 
     <!-- Messages Preferences -->
-    <string name="signature_title">Votre signature</string>
+    <string name="signature_title">Votre nom</string>
     <string name="reply_title">langue de l\'application</string>
 
     <!-- Sync Preferences -->

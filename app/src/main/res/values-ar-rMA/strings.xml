@@ -11,7 +11,7 @@
     <string name="messages_header">إعدادات</string>
     <string name="sync_header">المزامنة</string>
 
-    <string name="signature_title">توقيعك</string>
+    <string name="signature_title">اسمك</string>
     <string name="reply_title">لغة التطبيق</string>
 
     <string name="sync_title">مزامنة البريد الإلكتروني بشكل دوري</string>

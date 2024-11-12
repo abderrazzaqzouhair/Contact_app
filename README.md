@@ -16,7 +16,8 @@ The **Contact App** is an Android application built using **Kotlin** and **XML**
 - **Kotlin**: The app is built using Kotlin programming language.
 - **XML**: Used for creating the app's user interface.
 
-## Installation
+## Images
+![Image description](image/Contacts.png)
 
 1. Clone the repository:
    ```bash
